@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            background-color:rgb(102, 101, 101);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.452);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            box-shadow:5px 3px 7px 1px rgba(0, 0, 0, 0.452) ;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.514);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+
+        }
+        article > aside {
+            background-color: rgb(167, 165, 165);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            
+        }
+        img {
+    max-width: 100%;
+    max-height: 100%;
+}
+    </style>
+</head>
+<body>
+    <header>
+<h1>meu modelo de site</h1>
+<nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+</nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti odit assumenda quisquam nulla quam vero cumque officia? Voluptatibus quo possimus voluptatem veniam nostrum? Cumque nihil impedit cupiditate distinctio esse et?</p>
+                <aside>
+                    <p>Artigo por Vinicius Garro Marques</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+<p>desenvolvido por Vinicius Garro</p>
+    </footer>
+    <div id="bola">
+        <img src="foto.jpg" alt="foto desenvolvedor">
+    </div>
+</body>
+</html>
